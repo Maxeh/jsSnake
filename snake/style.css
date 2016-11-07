@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+
+* { 
+	margin:0; 
+	padding:0;
+	outline:none;
+	font-family:Consolas, monospace;
+}
+html { 
+	background:url(../bilder/bg3.gif); 
+	overflow:hidden;
+}
+.box { 
+	position:absolute;
+	background:green;
+	border:1px solid black;
+}
+#points {
+	position:absolute;
+	right:8px;
+	top:5px;
+	font-size:22px;
+	z-index:10;
+	color:#333;
+}
+#field {
+	position:absolute;
+	border:1px solid black;
+	background:url(../bilder/bg4.png);
+	box-shadow:0px 0px 20px #555;
+}
+#game-over {
+	width:95%;
+	box-sizing:border-box;
+	background:url(../bilder/bg.png);
+	border-radius:5px;
+	margin:30px auto;
+	text-align:center;
+	color:#222;
+	padding:20px;
+	border:1px solid #999;
+	box-shadow:0px 0px 20px #555;
+	font-family:Consolas, monospace;
+	line-height:25px;
+}
+#game-over-text {
+	font-size:24px;
+}
+button {
+	padding:5px 15px;
+	margin:10px 10px 0px 10px;
+	width:95%;
+	background:#888;
+	border:1px solid #555;
+}
+button:hover {
+	cursor:pointer;
+}
+#pause {
+	width:60%;
+	margin:0 auto;
+}
+#pause img {
+	width:100%;
+}

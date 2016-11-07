@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+
+* { margin:0; padding:0; color:#100; font-family:Consolas, monospace; }
+html { background:url(bilder/bg3.gif); }
+.wrapper {
+	width:80%;
+	margin:50px auto;
+	border:3px groove #CCC;
+	text-align:center;
+	background:url(bilder/bg4.png);
+}
+#logo {
+	width:90%;
+	margin:20px 0px;
+}
+#control-panel {
+	width:80%;
+	margin:0 auto;
+	sborder:1px solid black;
+}
+.check {
+	width:100%;
+	background:#CCC;
+	text-align:left;
+	padding:10px;
+	border:1px solid #999;
+	box-sizing:border-box;
+	margin:10px 0px;
+}
+button {
+	padding:10px;
+	width:100%;
+	background:url(bilder/bg.png);
+	outline:none;
+	border:1px solid #666;
+	margin:10px 0px;
+	color:#222;
+}
+#btn-start {
+	margin-bottom:20px;
+}
+select {
+	padding:5px 10px;
+	width:100%;
+	background:url(bilder/bg.png);
+	outline:none;
+	border:1px solid #666;
+	color:#222;
+}
+select#difficulty {
+	margin-top:10px;
+}
+select#select-size {
+	margin-top:10px;
+}
+button:hover, select:hover {
+	cursor:pointer;
+}
+.info {
+	padding:5px;
+	background:url(bilder/bg.png);
+	border-radius:5px;
+	border:1px solid #666;
+	font-size:12px;
+	margin-bottom:5px;
+	color:#222;
+}
+.appinfo {
+	margin-bottom:20px;
+}

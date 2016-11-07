@@ -1,0 +1,109 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	background: url(Bilder/html-bg.png);
+}
+/* umschließt #info, #snakeWrapper und #buttonWrapper */ 
+#wrapper {
+	position: absolute;
+	top: 100px;
+	/* mittig zentrieren */
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	width: 1000px;
+}
+#info {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	z-index: 10;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	background: none;
+	color: grey;
+}
+#snakeWrapper {
+	position: absolute;
+	width: 999px;
+	height: 549px;
+	background: url(Bilder/bg.png);
+	border: 1px solid black;
+	overflow: hidden;
+}
+#snakeWrapper #snakeBox {
+	position: absolute;
+	width: 49px;
+	height: 49px;
+	background: #CCC;
+	border: 1px solid grey;	
+}
+#snakeWrapper .box {
+	position: absolute;
+	width: 49px;
+	height: 49px;
+	background: url(Bilder/blue.png);
+	border:1px solid #333;
+}
+#snakeWrapper #nextbox {
+	background: #CCC;
+	border: 1px solid grey;
+}	
+#button-wrapper {
+	position: absolute;
+	top: 555px;
+	width: 1000px;
+}
+#button-wrapper button {
+	float: left;
+	padding: 10px;
+	margin-right: 10px;
+	border: 1px solid black;
+	cursor: pointer;
+	background: #CCC;
+	outline-style: none;
+}
+#button-wrapper .radio {
+	position: relative;
+	padding: 10px;
+	background: none;
+	top: 10px;
+	left: 5px;
+}
+#button-wrapper input[type="radio"] {
+	position: relative;
+	top: 10px;
+	left: 10px;
+	outline-style: none;
+}
+#control-select {
+	float: left;
+	padding: 3px;
+	margin-top:6px;
+	background: #CCC;
+	outline:none;
+}
+#game-over {
+	position:absolute;
+	z-index:2;
+	left:350px;
+	top:100px;
+	width:300px;
+	height:100px;
+	background:#F3F3F3;
+	border:1px solid red;
+	border-radius:5px;
+	box-shadow:0 0 100px;
+}
+#game-over-caption {
+	display:block;
+	position:absolute;
+	top:37px;
+	width:100%;
+	text-align:center;
+	font-size:26px;
+	color: #999;
+	font-family:Consolas, "Courier New", monospace;
+}
